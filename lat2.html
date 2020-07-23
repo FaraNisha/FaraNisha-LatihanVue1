@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+    <title>Good Morning</title>
+  </head>
+  <body>
+    
+    <div id="app">
+      <p>{{greet("Fara")}}</p>
+    </div>
+    
+    <script>
+    var app = new Vue({
+        el: "#app",
+        methods: {
+            greet: function (Fara) {
+            return 'Good Morning, ' + Fara;
+        }
+        }
+    })
+    </script>
+
+  </body>
+</html>

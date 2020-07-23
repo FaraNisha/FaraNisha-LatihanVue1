@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+    <title>Website SMK Telkom Malang</title>
+  </head>
+  <body>
+    
+    <div id="app">
+      <a v-bind:href="url">SMK Telkom</a>
+    </div>
+    
+    <script>
+    var app = new Vue({
+        el: "#app",
+        data: {
+            "url" : "https://smktelkom-mlg.sch.id/"
+        }
+    })
+    </script>
+
+  </body>
+</html>
